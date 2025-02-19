@@ -1,0 +1,14 @@
+{
+  "name": "dacoid-digital-assignment",
+  "version": "1.0.0",
+  "description": "This is a quiz web-app developed for the Dacoid digital assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishal ojha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
