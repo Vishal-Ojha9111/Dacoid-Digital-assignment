@@ -2,13 +2,18 @@
   "name": "dacoid-digital-assignment",
   "version": "1.0.0",
   "description": "This is a quiz web-app developed for the Dacoid digital assignment.",
-  "main": "index.js",
+  "main": "/backend/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/index.js"
   },
   "author": "Vishal ojha",
+  "type": "module",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
   }
 }
