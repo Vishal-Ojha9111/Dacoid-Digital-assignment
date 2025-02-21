@@ -5,6 +5,7 @@ import Result from "./components/Result"
 
 function App() {
 
+ // Get the apiURL from the .env file
  const apiurl = import.meta.env.VITE_API_URL
 
  const [questions, setQuestions] = useState([])
