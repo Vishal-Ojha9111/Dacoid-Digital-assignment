@@ -21,7 +21,7 @@ function App() {
   // Function to fetch questions from the API
   const getquestions = async () =>{
     try {
-      const res = await fetch(`${apiurl}/api/getquestions`)
+      const res = await fetch(`${apiurl}api/getquestions`)
       if (!res.ok) {
         throw new Error()
       }
@@ -105,7 +105,7 @@ const startCountdown = () =>{
 const endQuiz = async () => {
   clearInterval(intervalId)
   try {
-    const res = await fetch(`${apiurl}/api/verifyanswers`, {
+    const res = await fetch(`${apiurl}api/verifyanswers`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
