@@ -8,6 +8,4 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  // Modifying the default root for .env file in vite
-  envDir:'../'
 })
